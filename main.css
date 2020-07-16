@@ -1,3 +1,60 @@
 body {
-    background: red;
+    background: #512DA8;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.card--container {
+    display: flex;
+    flex-flow: row wrap;
+}
+
+.card--content {
+    background: #9E9E9E;
+    width: 30%;
+    margin: 1.2em;
+    -webkit-box-shadow: 6px 6px 11px 0px rgba(50, 50, 50, 0.5);
+    -moz-box-shadow:    6px 6px 11px 0px rgba(50, 50, 50, 0.5);
+    box-shadow:         6px 6px 11px 0px rgba(50, 50, 50, 0.5);
+    border: solid 1px #D1C4E9;
+}
+
+.product--specifications-details, .product--pricing-price {
+    font-weight: bold;
+    font-size: 1.25em;
+    text-align: center;
+}
+.product--header {
+    border: solid 1px #D1C4E9;
+    text-align: center;
+}
+
+.product--image {
+    display: block;
+    width: 30em;
+    height: 30em;
+    margin: auto;
+    margin-top: 15px;
+}
+
+.product--description {
+    text-align: left;
+    padding: 1em;
+    border-top: 1px dotted #D1C4E9;
+}
+
+.product--availability, .product--specifications-footer {
+    color: #673AB7;
+    background: #757575;
+    text-align: center;
+}
+
+.product--specifications-header, .product--pricing-header {
+    text-align: center;
+    border-bottom: 1px dotted #D1C4E9;
+    font-size: 2em;
+    font-weight: bold;
+}
+
+.product--button {
+    justify-content: center;
 }
